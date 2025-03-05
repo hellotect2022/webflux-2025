@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 
-@SpringBootApplication(exclude = {R2dbcAutoConfiguration.class})
+//@SpringBootApplication(exclude = {R2dbcAutoConfiguration.class})
+@SpringBootApplication
 @ComponentScans({
 		@ComponentScan("com.mpole.imp.framework"),
 		@ComponentScan("com.mpole.imp.api")
